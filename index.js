@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var currency_1 = require("./core/currency/currency");
+var zip_code_1 = require("./core/zip_code/zip_code");
+var date_1 = require("./core/date/date");
+console.log((0, currency_1.brl)(123.223));
+console.log((0, currency_1.brl)("123.223"));
+console.log((0, currency_1.brl)("12GS3.22a3"));
+console.log((0, zip_code_1.zip_code)(78008435, true));
+console.log((0, zip_code_1.zip_code)(78008435));
+console.log((0, zip_code_1.zip_code)("78008435", true));
+console.log((0, zip_code_1.zip_code)("78008435"));
+console.log((0, zip_code_1.zip_code)("78008VVVV1435", true));
+console.log((0, zip_code_1.zip_code)("z78008zzz435e"));
+console.log((0, date_1.date_time)("2023-09-15 21:19:20.909-04"));
+console.log((0, date_1.date_time)("2023-09-15 21:19:20"));
+console.log((0, date_1.date)("2023-09-15 21:19:20.909-04"));

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date and Date Time Deve retornar a Data e Hora formatada 1`] = `"15/09/2023 21:19:20"`;
+
+exports[`Date and Date Time Deve retornar a Data formatada 1`] = `"15/09/2023"`;
+
+exports[`Date and Date Time Deve retornar uma String 'Invalid Date Time' 1`] = `"Invalid Date Time"`;
