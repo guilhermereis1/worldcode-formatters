@@ -1,13 +1,18 @@
 {
-  "name": "worldcode-formatters",
+  "name": "worldcode-formatters-br",
   "version": "1.0.0",
-  "description": "",
+  "description": "Format Brazilian Zip Code, Currency, Date and Date Time",
   "main": "index.js",
   "scripts": {
     "dev": "tsc index.ts && node index.js",
     "jest": "npx jest"
   },
-  "keywords": [],
+  "keywords": [
+    "formatter zip code br",
+    "formatter currency br",
+    "formatter Date br",
+    "formatter Date Time br"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
