@@ -1,6 +1,6 @@
 {
   "name": "worldcode-formatters-br",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Format Brazilian Zip Code, Currency, Date and Date Time",
   "main": "index.js",
   "scripts": {
